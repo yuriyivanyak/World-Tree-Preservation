@@ -1,0 +1,60 @@
+body {
+    font-family: 'quattrocento_sansregular';
+}
+
+.top-menu {
+    text-transform: uppercase;
+    background-image: url(img/pattern-fixed.jpg);
+    padding-top: 2px;
+    padding-bottom: 2px;   
+}
+
+.templetes-link {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #4e6779;
+}
+.templetes-link:hover {
+    text-decoration: none;
+    color: #404040!important;
+}
+
+.top-menu li a{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu {
+    background-image: url(img/bg-header.jpg);
+}
+
+.main-menu-list .nav-item a {
+    color: white !important;
+}
+.main-menu-list .active a {
+    color: #fff600 !important;
+}
+
+.main-menu-list .nav-item a:hover {
+    color: #fff600 !important;
+}
+
+
+.head-img {
+    background-image: url(img/bg-featured.jpg);
+    min-height: 380px;
+}
+/*-------------------------------------*/
+
+
+
+.content-box {
+    background: url(img/arrow-gray.png) repeat-x left bottom;
+}
+
+/*----------------------------------------*/
+.blog-post {
+    display: flex;
+}
