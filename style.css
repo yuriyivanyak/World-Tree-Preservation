@@ -8,18 +8,14 @@ body {
     position: fixed;
     z-index: 111;
     width: 100%;
-
 }
 
 .top-menu {
     text-transform: uppercase;
     max-width: 960px;
-    background: transparent !important;
-    padding-top: 2px;
-    padding-bottom: 2px;  
+    background: transparent !important;  
     margin: auto;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 2px 0;
 }
 
 .templetes-link {
@@ -41,8 +37,6 @@ body {
 
 header {
    background-image: url(img/bg-header.jpg);
- 
-
    width: 100%; 
 }
 
@@ -68,10 +62,7 @@ header {
     display: block;
     float: right;
     height: 58px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 19px;
-    margin-top: 0px;
+    margin: 0 19px 0 0;
     outline-color: rgb(0, 0, 238);
     outline-style: none;
     outline-width: 0px;
@@ -107,11 +98,10 @@ header {
 }
 
 
-.head-img {
-    
+.head-img {    
     background: url(img/bg-featured.png) repeat-x;
     height: 396px;
-     }
+}
 
 .head-img div {
     background-image: url(img/bg-featured.jpg);
@@ -121,7 +111,6 @@ header {
 }
 
 .head-img div p {
-
     margin-left: 78px;
     color: #fff;
     font-size: 24px;
@@ -129,8 +118,7 @@ header {
     font-family:"rokkittregular" ;
     padding: 32px 0 0 0;
     margin: 0 0 0 78px;    
-    text-shadow:rgb(0, 0, 0) 0px 1px 1px ;
-    width: 882px;    
+    text-shadow:rgb(0, 0, 0) 0px 1px 1px ;    
 }
 
 .head-img div h2 {
@@ -141,7 +129,6 @@ header {
     margin: 0 0 0 78px;
     padding: 28px 0 0 0;
     text-shadow: rgb(0, 0, 0) 0px 1px 1px ;
-    width: 882px;
 }
 
 .head-img div h2 span {
@@ -149,8 +136,6 @@ header {
     font-size: 48px;
     line-height: 30px;
 }
-
-/*-------------------------------------*/
 
 .content {
    background-image: url("pattern-fixed.jpg");
@@ -179,7 +164,6 @@ header {
 }
 
 .top-program-title a, .blog-post-title a{
-    color: #000;
     color: #404040;
     font-family: 'rokkittbold';
     font-size: 20px;
@@ -194,7 +178,6 @@ header {
 
 .top-program1-title a, .top-program2-title a {
     color: #404040;
-    float: none;
     font-family: inherit;
     font-size: 14px;
     font-weight: 400;
@@ -206,7 +189,6 @@ header {
 
 .top-program1 p, .top-program2 p {
     color: #838383;
-    font-family: inherit;
     font-size: 14px;
     line-height: 24px;
     margin: 0;
@@ -300,10 +282,8 @@ header {
     justify-content: space-between;
     margin: auto;
     color: #838383;
-    
     font-size: 11px;
     line-height: 24px;
-    
     text-transform: uppercase;
     padding-bottom: 55px;
 }
@@ -313,7 +293,6 @@ header {
     display: flex;
     justify-content: space-between;
     width: 50%;
-    color: #838383;
 }
 
 .footer-menu ul li a {
@@ -325,6 +304,37 @@ header {
     color:  #CC6A00;
 }
 
+.address-list {
+    color: #838383;
+    font-size: 13px;
+    list-style: none;
+}
+
+.address-list li{
+    margin-bottom: 24px;
+}
+
+.social-link {
+    list-style: none;
+    padding-left: 0;
+}
+
+.social-link a{
+    font-size: 13px;
+    color: #838383;
+    display: flex;
+
+}
+.social-link a:hover {
+    text-decoration: none;
+}
+
+
+.facebook, .twitter, .google {
+    color: green;
+    font-size: 17px;
+    padding-right: 7px;
+}
 
 
 @media (min-width: 1200px){
