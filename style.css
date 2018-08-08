@@ -357,6 +357,14 @@ header {
     .main-menu ul {
         flex-direction: row;
     }
+
+    .footer-menu {
+        flex-wrap: wrap;
+    }
+
+    .footer-menu ul, .footer-menu div {
+        margin: auto;
+    }
 }
 
 @media (max-width: 576px) {
@@ -380,6 +388,14 @@ header {
 
     .top-program1 a img, .top-program2 a img{
         width: 100%;
+    }
+
+    .head-img div p, .head-img div h2 {
+        margin-left: 30px;
+    }
+
+    .footer-menu {
+        flex-wrap: wrap;
     }
 
 }
