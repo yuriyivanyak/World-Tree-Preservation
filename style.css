@@ -48,7 +48,10 @@ header {
     padding-bottom: 10px; 
 }
 
-.btn-donate {
+
+
+/*----------------------------------------- Donate Button (need fix)----------------------*/
+/*.btn-donate {
     background-attachment: scroll;
     background-clip: border-box;
     background-color: rgba(0, 0, 0, 0);
@@ -69,7 +72,7 @@ header {
     text-indent: -99999px;
     max-width: 201px;
     z-index: 11111;
-}
+}*/
 
 .main-menu .navbar {
     padding-top: 0;
@@ -81,7 +84,8 @@ header {
 }
 
 .main-menu-list {
-    min-width: 475px;
+    /*min-width: 475px;*/
+
     display: flex;
     justify-content: space-between;
 }
@@ -106,7 +110,7 @@ header {
 
 .head-img div {
     background-image: url(img/bg-featured.jpg);
-    -max-width: 950px;
+    max-width: 950px;
     margin: auto;
     height: 396px;
 }
@@ -343,6 +347,41 @@ header {
     .container {
         max-width: 960px; 
     }
+}
+
+@media (max-width: 992px) {
+    .header ul {
+        flex-direction: row;
+    }
+
+    .main-menu ul {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main-menu .navbar-brand img {
+        width: 100% !important;
+    }
+    .navbar-brand a {
+        width: 100% !important;
+    }
+
+    .main-menu-list {
+        width: 100%;
+    }
+
+    .header .top-menu ul ,
+    .templetes-link ,
+    .main-menu .navbar-brand  {
+        margin: auto !important;
+    }
+
+    .top-program1 a img, .top-program2 a img{
+        width: 100%;
+    }
+
 }
 
 
